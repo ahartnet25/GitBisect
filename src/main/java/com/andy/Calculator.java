@@ -1,5 +1,7 @@
 package com.andy;
 
+import com.ibm.j9ddr.vm29.structure.double1;
+
 public class Calculator {
     
         
@@ -17,6 +19,10 @@ public class Calculator {
 
     public  int divide(int num1, int num2) {
         return num1 / num2;
+    }
+
+    public int roundUp(double num1) {
+        return (int)Math.round(num1);
     }
     
 }
