@@ -9,6 +9,12 @@ public class TestProgram {
         Calculator calculator = new Calculator();
         
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + calculator.add(num1,num2));
+
+        System.out.println("The difference of " + num1 + " and " + num2 + " is: " + calculator.subtract(num1,num2));
+
+        System.out.println("The multiple of " + num1 + " and " + num2 + " is: " + calculator.multiply(num1,num2));
+
+        System.out.println("The dividened of " + num1 + " and " + num2 + " is: " + calculator.divide(num1,num2));
     }
         
     
