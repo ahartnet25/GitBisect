@@ -21,11 +21,15 @@ public class Calculator {
     }
 
     public int roundUp(double num1) {
-        return (int)Math.round(num1);
+        return (int)Math.abs(num1);
     }
 
     public int roundDown(double num1) {
         return (int)Math.floor(num1);
+    }
+
+    public double power (int num1, int num2) {
+        return Math.pow(num1, num2);
     }
     
 }
