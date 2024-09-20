@@ -1,6 +1,5 @@
 package com.andy;
 
-import com.ibm.j9ddr.vm29.structure.double1;
 
 public class Calculator {
     
@@ -23,6 +22,10 @@ public class Calculator {
 
     public int roundUp(double num1) {
         return (int)Math.round(num1);
+    }
+
+    public int roundDown(double num1) {
+        return (int)Math.floor(num1);
     }
     
 }

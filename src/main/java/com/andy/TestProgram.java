@@ -19,6 +19,8 @@ public class TestProgram {
 
         System.out.println("Rounding up " + num3 + " is: " + calculator.roundUp(num3));
 
+        System.out.println("Rounding down " + num3 + " is: " + calculator.roundDown(num3));
+
     }
         
     
