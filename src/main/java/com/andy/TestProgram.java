@@ -22,6 +22,8 @@ public class TestProgram {
         System.out.println("Rounding down " + num3 + " is: " + calculator.roundDown(num3));
 
         System.out.println("The power of " + num1 + " and " + num2 + " is: " + calculator.power(num1,num2));
+
+        System.out.println("The square of " + num2 + " is: " + calculator.squareRoot(num2));
     }
         
     
